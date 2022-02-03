@@ -47,6 +47,8 @@ header{
     height: 80px;
     line-height: 80px;
     position: fixed;
+    z-index: 10;
+    
 }
 
 .top-header img{
@@ -75,4 +77,43 @@ li a{
 }
 .float-right nav{
     margin-right: 20px;
+}
+/*fine tag top-header*/
+.bottom-header{
+    background-color: #b4d0e7;
+    height: 100vh;
+    position:relative;
+}
+.text-box{
+    position: absolute;
+    right: 0%;
+    top: 57%;
+    transform: translate(0%, -50%);
+    width: 90%;
+}
+
+.text-box h1{
+    font-size: 5rem;
+}
+.text-box p{
+    width: 30%;
+    margin-top: 30px;
+    
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: #0061ff;
+    padding: 20px;
+}
+.jumbo img {
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    right: 0;
+}
+
+.prova{
+    height: 100%;
+    border:2px solid black;
 }
