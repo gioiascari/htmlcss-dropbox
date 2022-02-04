@@ -4,14 +4,15 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
-header{
-    
+main{
+    height: 100%;
 }
+
 .container{
     margin: auto;
     max-width: 1000px;
     width: 70%;
+    
    
 }
 
@@ -81,13 +82,13 @@ li a{
 /*fine tag top-header*/
 .bottom-header{
     background-color: #b4d0e7;
-    height: 100vh;
+    height: 800px;
     position:relative;
 }
 .text-box{
     position: absolute;
     right: 0%;
-    top: 57%;
+    top: 55%;
     transform: translate(0%, -50%);
     width: 90%;
 }
@@ -96,6 +97,7 @@ li a{
     font-size: 5rem;
 }
 .text-box p{
+    margin-bottom: 3rem;
     width: 30%;
     margin-top: 30px;
     
@@ -104,7 +106,7 @@ li a{
     color: white;
     text-decoration: none;
     background-color: #0061ff;
-    padding: 20px;
+    padding: 10px;
 }
 .jumbo img {
     width: 60%;
@@ -116,4 +118,94 @@ li a{
 .prova{
     height: 100%;
     border:2px solid black;
+}
+
+/*fine header*/
+
+.first-section{
+    padding-top: 30%;
+}
+.first-section h2{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 5rem;
+}
+
+.radio {
+    margin-bottom: 20px;
+
+}
+.col-container{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.col-item,
+.col-central
+{
+    float: left;
+    width:33%;
+    border: 2px solid black;
+    height: 1000px;
+
+    
+}
+
+.col-central{
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.col-item .tipologia,
+.col-central .tipologia
+{
+    border-bottom:2px solid black;
+    padding: 10px;
+   
+}
+.text-col{
+    height: 100px;
+    text-align: left;
+    padding: 20px;
+}
+.text-col .tipo{
+    font-size: 30px;
+}
+.top-text-col{
+    line-height: 3rem;
+}
+.text-col nav li{
+    color: black;
+    list-style-type: none;
+    font-size:12px;
+    margin:10px 0px;
+
+    
+}
+
+.text-col nav{
+    margin-bottom: 3rem;
+    margin-top: 30px;
+    
+}
+.text-col .acquista{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.acquista a{
+    color: #1d72ff;
+}
+.col-central .prezzo1 {
+    font-size: 17px;
+}
+.col-central .utente{
+    width: 14rem;
+}
+
+.bottom-text{
+    margin-top: 2rem;
 }
