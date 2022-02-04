@@ -106,7 +106,7 @@ li a{
     color: white;
     text-decoration: none;
     background-color: #0061ff;
-    padding: 10px;
+    padding: 10px 20px;
 }
 .jumbo img {
     width: 60%;
@@ -230,3 +230,36 @@ li a{
 
 
 /*fine tag colonne*/
+/*seconda section*/
+
+.section-2{
+    height: 450px;
+    margin-top: 20vh;
+    position: relative;
+    
+}
+.section-2 img{
+    
+    width: 55%;
+
+}
+.text-section{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    width: 40%;
+}
+.section-2 h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.section-2 p{
+    margin-bottom: 40px;
+}
+
+.section-2 .btn{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
