@@ -122,6 +122,8 @@ li a{
 
 /*fine header*/
 
+/*inizio tag colonne*/
+
 .first-section{
     padding-top: 30%;
 }
@@ -130,7 +132,9 @@ li a{
     font-size: xx-large;
     margin-bottom: 5rem;
 }
-
+.mese-utente{
+    font-size: 12px;
+}
 .radio {
     margin-bottom: 20px;
 
@@ -147,8 +151,8 @@ li a{
 {
     float: left;
     width:33%;
-    border: 2px solid black;
-    height: 1000px;
+    border: 2px solid lightgray;
+    height: 900px;
 
     
 }
@@ -160,10 +164,9 @@ li a{
     margin-right: 2%;
 }
 
-.col-item .tipologia,
-.col-central .tipologia
-{
-    border-bottom:2px solid black;
+ .tipologia
+{   text-align: center;
+    border-bottom:2px solid lightgray;
     padding: 10px;
    
 }
@@ -183,9 +186,11 @@ li a{
     list-style-type: none;
     font-size:12px;
     margin:10px 0px;
+    line-height: 1.5rem;
 
     
 }
+
 
 .text-col nav{
     margin-bottom: 3rem;
@@ -209,3 +214,19 @@ li a{
 .bottom-text{
     margin-top: 2rem;
 }
+.utente .btn{
+    display: inline-block;
+    padding: 10px 35px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.bottom-col{
+    border: 2px solid lightgray;
+    height: 220px;
+    margin-top: 15px;
+}
+
+
+/*fine tag colonne*/
