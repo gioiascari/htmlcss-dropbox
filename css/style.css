@@ -130,7 +130,7 @@ li a{
 .first-section{
     margin-top: 30%;
 }
-.first-section h2{
+.first-section h2, .four h2{
     text-align: center;
     font-size: xx-large;
     margin-bottom: 5rem;
@@ -299,4 +299,86 @@ li a{
     width: 33%;
     padding-right: 10px;
 }
+ .four h2{
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 4rem;
+ }
 
+
+ .third .bottom-col{
+     border: 0px;
+     margin-top: 5rem;
+ }
+
+ /*fine terza section tag*/
+.box-logo{
+    background-color: #f5f5f5;
+    height: 470px;
+    background-color: coral;
+    
+}
+.content-container, .content-container-left {
+    width: 470px;
+    height: 470px;position: relative;
+    background-color: cadetblue;
+    float: right;
+}
+.content-container-left{
+    float: left;
+}
+.block{
+    height: 235px;
+    width: 235px;
+    border: 3px solid black;
+}
+.one, .five{position: absolute;
+    left: 0;
+    top: 50%;
+    background-color: red;
+}
+.two, .six{position: absolute;
+    right: 0;
+    background-color: yellow;
+   
+}
+
+.three, .seven{
+    position: absolute;
+    top: 0;
+    background-color: slateblue;
+}
+.four, .eight{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    background-color: steelblue;
+}
+/*
+.content-container {
+    width: 470px;
+}
+
+.inner-square img{
+    background-color: blue;
+    padding: 20px;
+}
+
+.inner-square {
+    background: blueviolet
+    width: 5rem;
+    
+}
+.block img{
+    width: 50%;
+
+}
+.block {
+    height: 235px;
+    width: 235px;
+    float: left;
+    background-color: red;
+    border: 2px solid black;
+}
+*/
