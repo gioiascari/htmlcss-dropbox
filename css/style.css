@@ -128,7 +128,7 @@ li a{
 /*inizio tag colonne*/
 
 .first-section{
-    padding-top: 30%;
+    margin-top: 30%;
 }
 .first-section h2{
     text-align: center;
@@ -235,7 +235,7 @@ li a{
 /*seconda section*/
 
 .section-2{
-    height: 450px;
+    height: 470px;
     margin-top: 20vh;
     position: relative;
     
@@ -270,4 +270,33 @@ li a{
     color: gray;
 }
 
+.third .first-section{
+    margin-top: 0px;
+}
+.third h2{text-align: left;
+    margin: 3rem 0rem;
+}
+.third h3{
+
+}
+.third p{
+    line-height: 20px;
+}
+
+.third .text-col{
+    padding: 0px;
+}
+.box-img {
+    width: 100%;
+}
+.box-img img{
+    width: 100%;
+}
+.third .col-item, .third .col-central{
+    height: 500px;
+    border: 0;
+    margin: 0%;
+    width: 33%;
+    padding-right: 10px;
+}
 
