@@ -348,7 +348,9 @@ li a{
     bottom: 0;
     left: 50%;
 }
-.one{background-color: #a2d39b;}
+.one{background-color: #a2d39b;
+    border:10px solid #d0e9cd;
+}
 .two{background-color: #61082b;}
 .three{background-color: #0093ce;}
 .four{background-color: #ff1c1c;}
@@ -393,30 +395,26 @@ li a{
     width: 100%;
 }
 
-/*
-.content-container {
-    width: 470px;
+.blue{
+    background: #b4d0e7;
+    height: 350px;
+    z-index: 1;
 }
 
-.inner-square img{
-    background-color: blue;
-    padding: 20px;
+.blue h1{
+    color: #61082b;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    width: 30%;
 }
 
-.inner-square {
-    background: blueviolet
-    width: 5rem;
-    
+.blue .btn{
+    color: black;
+    background-color: white;
+    padding: 5px 50px;
+    position: absolute;
+    right: 20%;
+    top: 33%;
 }
-.block img{
-    width: 50%;
-
-}
-.block {
-    height: 235px;
-    width: 235px;
-    float: left;
-    background-color: red;
-    border: 2px solid black;
-}
-*/
