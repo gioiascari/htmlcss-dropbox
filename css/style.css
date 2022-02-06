@@ -315,13 +315,12 @@ li a{
 .box-logo{
     background-color: #f5f5f5;
     height: 470px;
-    background-color: coral;
+    position: relative;
     
 }
 .content-container, .content-container-left {
     width: 470px;
     height: 470px;position: relative;
-    background-color: cadetblue;
     float: right;
 }
 .content-container-left{
@@ -330,31 +329,70 @@ li a{
 .block{
     height: 235px;
     width: 235px;
-    border: 3px solid black;
 }
-.one, .five{position: absolute;
+.three, .seven{position: absolute;
     left: 0;
     top: 50%;
-    background-color: red;
 }
 .two, .six{position: absolute;
     right: 0;
-    background-color: yellow;
    
 }
 
-.three, .seven{
+.one, .five{
     position: absolute;
     top: 0;
-    background-color: slateblue;
 }
 .four, .eight{
     position: absolute;
     bottom: 0;
     left: 50%;
-
-    background-color: steelblue;
 }
+.one{background-color: #a2d39b;}
+.two{background-color: #61082b;}
+.three{background-color: #0093ce;}
+.four{background-color: #ff1c1c;}
+.five{background-color: #d5001f;}
+.six{background-color: #b4d0e7;}
+.seven{background-color: #0d2481;}
+.eight{background-color: #ffd830;}
+
+
+
+.block img{
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: invert(1);
+}
+.ten{
+   
+    border: 3px solid black;
+    width: 100%;
+}
+.block-nine img{
+    filter: invert(0);
+    top: 15%;
+    left: 25%;
+    width: 35%;
+}
+.text h2{
+    color: red;
+}
+.logo-nine{
+        position: absolute;
+    right: 5%;
+    top: 10%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+
+}
+.block-ten p{
+    width: 100%;
+}
+
 /*
 .content-container {
     width: 470px;
