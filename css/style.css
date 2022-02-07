@@ -108,8 +108,11 @@ li a{
     background-color: #0061ff;
     padding: 10px 20px;
 }
-.text-box a:hover{
+.text-box a:hover, 
+.utente a:hover, 
+.bottom-col a:hover{
     background-color: #5a99ff;
+    transform: scale(1.1);
 }
 .jumbo img {
     width: 60%;
@@ -206,6 +209,9 @@ li a{
 .acquista a{
     color: #1d72ff;
 }
+.acquista a:hover{
+    text-decoration: white;
+}
 .col-central .prezzo1 {
     font-size: 17px;
 }
@@ -228,6 +234,15 @@ li a{
     border: 2px solid lightgray;
     height: 220px;
     margin-top: 15px;
+}
+.bottom-col .btn{
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 20px;
+    padding: 0px 47px;
+    text-align: center;
+    font-size: 13px;
+    width: 30%;
 }
 
 
@@ -416,53 +431,37 @@ li a{
     right: 20%;
     top: 33%;
 }
+
+.blue .btn:hover{
+    transform: scale(1.1);
+}
 /*menu dropdown*/
 
-
- #main-nav {
+.slide-drop{
     position: relative;
-  }
-  
-  #main-nav>ul>li {
-    width: 100%;
-    text-align: left;
-    line-height: .9em;
-    font-weight: bold;
-    background: #ccc;
-  }
-  #main-nav li{
-      list-style-type: none;
-  }
-  
-  #main-nav>ul>li>a {
-    display: block;
-    color: #333;
-    line-height: 12px;
-    font-size: 14px;
-    padding: 22px 0;
-    text-decoration: none;
-  }
-  
-  .nav-dropdown {
-    
-    margin: -5px auto;
-    position: absolute;
-    left: -999em;
-    text-align: left;
-    padding: 0;
-    width: 500px;
-    background: #333;
-    color: #f2f2f2;
-    -moz-border-radius-bottomright: 5px;
-    -moz-border-radius-bottomleft: 5px;
+    height: 500px;
+}
+ .slide-drop h2{
+    padding-bottom: 30px;
+    border-bottom: 2px solid lightgray
 
-  }
-  
-  #main-nav li:hover .nav-dropdown {
-    left: 0;
-    top: auto;
-    z-index: 11;
-  }
+ }
+.slide-drop ul{
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+.slide-drop ul li{
+    border-bottom: 2px solid lightgray;
+    padding:20px 0px;
+}
+
+.slide-drop .fas{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
 
   footer{
       position: relative;
@@ -510,7 +509,7 @@ li a{
   .bottom-footer a{
       color: gray;
       font-size: 12px;
-      text-decoration: none;
+      text-decoration: none ;
   }
 
-  
+ 
